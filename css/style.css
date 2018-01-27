@@ -1,0 +1,226 @@
+*{
+	padding:0;
+	margin:0;
+}
+.header{
+	background-color:#222222;
+	min-height:38px; 
+	width:85%;	
+	overflow:hidden;
+	margin:0 auto;
+}
+ 
+.short_line{
+	width:80%;
+	box-sizing:border-box;
+	float:left;
+	padding: 8px 35px;
+}
+.short_line h5{
+	color:#948D80;
+}
+.social_website {	
+	background color: azure;
+	padding:0; 
+	float:right;
+	min-height:38px;
+	width:20%;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.facebook_link {
+	width: 14%;
+position: absolute;
+margin-left: 13%;
+	
+}
+.facebook_link img{
+	width:100%; 
+	transition: 1s;
+		border:1px solid gray;
+}
+.facebook_link img:hover{
+	background-color:deepskyblue;}
+
+.linkedin_link {
+	width: 14%;
+position: absolute;
+margin-left: 30%;
+}
+
+.linkedin_link img {
+	width:100%;	
+	border: 1px solid gray;
+}
+
+.linkedin_link img:hover {color:color:deepskyblue; 
+	border:1px solid gray;}
+
+.twitter_link {
+	width: 16%;
+position: absolute;
+margin-left: 47%;
+}
+.twitter_link img{
+	width:100%;
+	border:1px solid gray;
+}
+.instagram_link {
+	width: 13%;
+position: absolute;
+margin-left: 66%;
+}
+.instagram_link img {
+	width:100%;
+	border: 1px solid gray;
+}
+
+
+.slider_menu {background-color:#222222;
+	min-height:400px; 
+	width:85%;	
+	overflow:hidden;
+	margin:0 auto;
+	background-image:url('https://tse2.mm.bing.net/th?id=OIP._25Wc1zL2ZVCVWRSthLjzAHaEK&pid=15.1&P=0&w=315&h=178');
+	
+	background-repeat:repeat;
+	
+}
+.wrapper_slider{
+	width:100%;
+}
+.logo{
+	width: 30%;
+box-sizing: border-box;
+	float:left;
+}
+.logo img{
+	width: 20%;
+margin: 0% 11%;
+}
+.menubar{
+	width: 70%;
+box-sizing: border-box;
+float: right;
+}
+.menubar ul{
+			list-style:none; 
+}
+
+.menubar ul li{
+	float:left; 
+	position: relative;
+	}
+
+.menubar ul li a{
+	color:whitesmoke; 
+	text-decoration:none; 
+	font-size:16px; 
+	font-weight:normal; 
+	display:block;
+	padding: 12px 40px;
+	transition: 1s;
+	transform:scale(1.1);}
+
+
+
+.menubar ul li a:hover{color: black;
+background-color: ghostwhite;}
+	
+/*Dropdown_Menu*/
+.menubar ul li ul{
+	position:absolute; 
+	background-color:ghostwhite; width:125px; 
+	left:-99999999999px; transition:0.5s;
+color:lightgray;}
+.menubar ul li:hover ul{
+	left:0;
+}
+.menubar ul li ul li{
+	clear:both;}
+.menubar ul li ul li a{
+	color:dimgray;
+	padding:10px 15px; 
+	display:block; 
+	width: 96px;}
+
+.menubar ul li ul li a:hover{color:black; background-color: lightgray}
+
+.content {
+	background-color: white;
+min-height: 38px;
+width: 85%;
+overflow: hidden;
+margin: 0% 7.4%;
+}
+
+.wrapper {
+}
+
+.content_title {
+	width: 25%;
+    box-sizing: border-box;
+    float: left;
+    padding: 2% 2%;
+}
+
+
+.content_title p{margin: 10% 2%;
+}
+
+.content-1 {
+width: 25%;
+box-sizing: border-box;
+float: left;
+padding:2% 2%;
+}
+.content-1 img{width:100%;}
+.content-1 p{padding:2px; 
+}
+.content-2 {
+	width: 25%;
+box-sizing: border-box;
+float: left;
+padding: 2% 2%;
+}
+.content-2 img{width:100%;}
+.content-2 p{padding:2px;
+}
+.content-3 {
+	width: 25%;
+box-sizing: border-box;
+float: right;
+padding: 2% 2%;
+}
+.content-3 img{width:100%;}
+
+
+.footer {
+	background-color:deepskyblue;
+	min-height:38px; 
+	width:85%;	
+	overflow:hidden;
+	margin:0 auto;
+}
+
+
+
+.wrapper_footer {
+	
+width: 100%;
+
+float: left;
+margin-left:10px;
+}
+
+.right_footer {
+	float:left;
+	width:50%; 
+	padding: 1% 2%;
+}
+
+.left_footer {float:right;
+	padding: 1% 2%;
+	width:22%; 
+}
